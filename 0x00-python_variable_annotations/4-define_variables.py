@@ -1,6 +1,7 @@
-i#!/usr/bin/env python3
+#!/usr/bin/env python3
 '''Task 4
 '''
+
 
 a: int = 1
 pi: float = 3.14

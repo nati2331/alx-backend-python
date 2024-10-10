@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Task 12"""
+'''Task 12
+'''
 from typing import List, Tuple
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
-    """Returns copies in a tuple."""
+    '''Returns copies in a tuple.
+    '''
     zoomed_in: List = [
         item for item in lst
         for i in range(int(factor))

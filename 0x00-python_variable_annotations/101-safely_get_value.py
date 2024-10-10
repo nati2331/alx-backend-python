@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Task 11"""
+'''Task 11
+'''
 from typing import Any, Mapping, Union, TypeVar
 
 
@@ -9,7 +10,8 @@ Def = Union[T, None]
 
 
 def safely_get_value(dct: Mapping, key: Any, default: Def = None) -> Res:
-    """Returns a value from a dict"""
+    '''Returns a value from a dict.
+    '''
     if key in dct:
         return dct[key]
     else:

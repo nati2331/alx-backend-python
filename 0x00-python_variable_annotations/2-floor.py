@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Task 2."""
-
-import math
+'''Task 2
+'''
 
 
 def floor(a: float) -> int:
-    """Computes a floating number."""
-    return math.floor(a)
+    '''Returns floats.
+    '''
+    return int(a)

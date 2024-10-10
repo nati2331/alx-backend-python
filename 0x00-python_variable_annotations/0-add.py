@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
-"""task-0"""
+'''Task 0.
+'''
+
 
 def add(a: float, b: float) -> float:
-    """Adds a and b."""
+    '''Sums two numbers.
+    '''
     return a + b
